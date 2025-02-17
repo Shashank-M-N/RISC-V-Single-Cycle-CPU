@@ -22,6 +22,31 @@ All the above instructions have been implemented and verified for a **32-bit arc
 
 ---
 
+### Installation and Setup Instructions
+
+#### Prerequisites
+Before running the project, ensure you have the following installed and configured:
+
+1. **Quartus Prime** – Download and install **Intel Quartus Prime** (Lite, Standard, or Pro)
+2. **ModelSim** – Install **ModelSim Intel FPGA Starter Edition** or **ModelSim SE** for simulation.
+3. **Configuration** – Ensure that Quartus and ModelSim are correctly configured in your system environment.
+
+#### Cloning the Repository
+Once the tools are installed, follow these steps to get started:
+
+1. Clone the repository using Git:
+   ```bash
+   git clone https://github.com/Shashank-M-N/RISC-V-Single-Cycle-CPU.git
+   cd RISC-V-Single-Cycle-CPU
+   ```
+2. Open Quartus and **load the project file (`.qpf`)**.
+
+#### Running the Project
+- Compile the design in Quartus.
+- Run simulations in ModelSim to verify functionality.
+
+---
+
 ## Module Description
 
 The CPU module includes the following input and output signals:
